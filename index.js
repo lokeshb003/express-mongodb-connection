@@ -14,7 +14,7 @@ app.use((req, res, next) => {
   next();
 });
 
-mongoose.connect('//mongodb-url', {
+mongoose.connect('mongodb+srv://lokesh:kepler22b@calendar-react-app.upbcxey.mongodb.net/?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
